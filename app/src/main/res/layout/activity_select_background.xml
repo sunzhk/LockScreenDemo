@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DFFF463C"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFFFF"
+        android:text="@string/title" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20sp"
+        android:text="壁纸选择" />
+    
+    <EditText
+        android:id="@+id/activity_select_background_et_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:singleLine="true"
+        android:textSize="20sp" />
+    
+    <Button
+        android:id="@+id/activity_select_background_bt_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+		android:layout_gravity="center_horizontal"
+        android:background="@drawable/selector_button_normal"
+		android:textColor="#FFFFFFFF"
+		android:textSize="20sp"
+        android:text="@string/select_image"/>
+    
+    
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    
+    <Button
+        android:id="@+id/activity_select_background_bt_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@drawable/shape_button_corner_red"
+        android:layout_margin="35dp"
+        android:text="@string/confirm" />
+
+</LinearLayout>

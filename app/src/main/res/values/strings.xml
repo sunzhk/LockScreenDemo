@@ -1,0 +1,19 @@
+<resources>
+	<string name="app_name">LockScreenDemo</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="description">需要此权限以正常运行程序</string>
+	<string name="time_interval">保护时间间隔</string>
+	<string name="relax_time">强制休息时间</string>
+	<string name="background">保护图画设置</string>
+	<string name="select_image">选择图片</string>
+	<string name="parent_mode">家长模式:</string>
+	<string name="parent_mode_password">家长模式密码</string>
+	<string name="confirm">确认</string>
+	<string name="cancel">取消</string>
+	<string name="exit">退出</string>
+	<string name="info">P.S.小米手机需先允许悬浮窗权限与锁屏显示权限</string>
+	<string name="eye_exercises">眼保健操</string>
+	<string name="unit_second">秒</string>
+	<string name="unit_minute">分</string>
+	<string name="title">设置</string>
+</resources>

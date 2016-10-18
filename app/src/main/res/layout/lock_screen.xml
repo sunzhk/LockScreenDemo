@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:gravity="center_horizontal"
+			  android:background="#FFFFFFFF">
+
+    <LinearLayout
+        android:id="@+id/lock_screen_ll_main"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/lock_screen_tv_time"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="20dp"
+		android:layout_margin="15dp"
+		android:gravity="center"
+		android:background="@drawable/shape_button_corner_black"
+		android:textSize="45sp"
+		android:textColor="#FFFFFFFF" />
+    
+    <View
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_weight="1" />
+    
+    <Button 
+		android:id="@+id/lock_screen_bt_eye_exercises"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="5dp"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="10dp"
+        android:background="@drawable/selector_button_normal"
+        android:alpha="0.8"
+		android:text="@string/eye_exercises"/>
+    
+    <Button 
+		android:id="@+id/lock_screen_bt_exit"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/exit"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginStart="30dp"
+		android:layout_marginEnd="30dp"
+		android:layout_marginBottom="10dp"
+        android:background="@drawable/selector_button_normal"
+        android:alpha="0.85"/>
+    
+	</LinearLayout>
+	
+    <LinearLayout
+		android:id="@+id/lock_screen_ll_parent_mode"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+		android:padding="10dp" >
+    
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        
+        <TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:background="#80000000"
+			android:layout_marginBottom="10dp"
+			android:textColor="#FFFFFFFF"
+			android:textSize="35sp"
+			android:text="@string/parent_mode_password" />
+        
+	    <EditText
+			android:id="@+id/lock_screen_et_parent_mode_password"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="10dp"
+			android:padding="10dp"
+			android:inputType="textPassword"
+			android:textSize="35sp" />
+	    
+	    <Button 
+			android:id="@+id/lock_screen_bt_confirm"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/confirm"
+	        android:background="@drawable/selector_button_normal"
+	        android:alpha="0.85"/>
+    
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
